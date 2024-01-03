@@ -16,16 +16,18 @@ body {
   
   button {
     border-radius: 20px;
-    padding: 10px 15px;
+    padding: 12px 28px;
     margin: 5px;
     border: none;
   }
   
   button {
+    font-family: 'Homemade Apple', cursive;
+    font-weight: bolder;
     cursor: pointer;
     background-color: #ffffff;
     color: #1d1d1d;
-    font-size: 70px;
+    font-size: 60px;
     padding: 50px;
     margin: 30px;
   }
@@ -46,4 +48,5 @@ body {
 
   h1 {
     font-size: 150px;
+    text-align: center;
   }

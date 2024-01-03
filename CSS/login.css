@@ -2,15 +2,18 @@ body {
     background-color: #1d1d1d;
     color: white;
     font-family: 'Pacifico', cursive;
+    font-size: 42px;
   }
   
   .container {
+    position: relative;
+    width: 30%;
+    border: 3px solid #e7e7e7;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
-    border: 3px solid #e7e7e7;
-    margin: 0 auto;
-    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+  
   }
   
   input[type="text"],
@@ -18,21 +21,24 @@ body {
   input[type="password"],
   button {
     border-radius: 20px;
-    padding: 10px 15px;
+    padding: 10px;
     margin: 5px;
     border: none;
-    float: left;
   }
   
   button {
+    font-family: 'Pacifico', cursive;
     cursor: pointer;
-    background-color: #ffffff;
     color: #1d1d1d;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 12px 28px;
   }
   
   button:hover {
-    background-color: #f1f1f1;
-    color: #1d1d1d;
+    background-color: #e7e7e7;
+    color: blueviolet;
   }
   
   a {
@@ -46,4 +52,10 @@ body {
 
   h1 {
     font-size: 100px;
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 15px;
   }
